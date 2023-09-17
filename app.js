@@ -181,3 +181,206 @@
 // var userResponse = prompt(message, defaultResponse);
 
 // alert(userResponse);
+
+//                   Chapter 10 (if statments)
+
+// var city = "Karachi";
+// if ((city = "Karachi")) {
+//   console.log("The City OF Lights");
+// }
+
+// var x = 5;
+// var y = 5;
+// if (x === y) {
+//   var z = +prompt("enter the value of z : ");
+// }
+
+// var zipCode = +prompt("enter the value of zipCode : ");
+// if (zipCode == "10010") {
+//   alert("Karachi");
+// } else {
+//   alert("Please write correct city");
+// }
+
+// var my_variable = 24;
+
+// if (my_variable == 24) {
+//   my_variable = 1;
+//   alert("the new value of variable is " + my_variable);
+// }
+
+//                     Chapter 11 (Comparison Operators)
+
+// var variable1 = +prompt("enter the value for variable1 : ");
+// var variable2 = +prompt("enter the value for variable2 : ");
+// if (variable1 !== variable2) {
+//   alert("variable one is not equall to variable two");
+// } else {
+//   alert("variable one is equall to variable two");
+// }
+
+// var variable1 = +prompt("enter the value for variable1 : ");
+// var variable2 = +prompt("enter the value for variable2 : ");
+// if (variable1 >= variable2) {
+//   alert("variable one is greater or equall to variable two");
+// } else {
+//   alert("variable one is not greater or equall to variable two");
+// }
+
+// var my_variable = +prompt("enter the value : ");
+
+// if (my_variable !== 24) {
+//   my_variable = 1;
+//   alert("the new value of variable is " + my_variable);
+// }
+
+// var variable1 = +prompt("enter the value for variable1 : ");
+// var variable2 = +prompt("enter the value for variable2 : ");
+// if (variable1 !== variable2) {
+//   alert("Congralulations...");
+// } else {
+//   alert("variable one is equall to variable two");
+// }
+
+// var f_name = prompt("enter the first name : ");
+// var other_name = "riyaz";
+// if (f_name !== other_name) {
+//   alert("No Match");
+// }
+
+//              Chapter 12 (if…else and else if statements)
+
+// var variable1 = +prompt("enter the value for variable1 : ");
+// var variable2 = +prompt("enter the value for variable2 : ");
+// if (variable1 >= variable2) {
+//   alert("variable one is greater or equall to variable two");
+// } else {
+//   alert("variable one is not greater or equall to variable two");
+// }
+
+// var marks1 = +prompt("Enter the marks of English : ");
+// var marks2 = +prompt("Enter the marks of Maths : ");
+// var marks3 = +prompt("Enter the marks of Urdu : ");
+// var marks4 = +prompt("Enter the marks of Islamiat : ");
+// var marks5 = +prompt("Enter the marks of Chemistry : ");
+// var total_marks = +prompt("Enter the total marks : ");
+// var sum_marks = marks1 + marks2 + marks3 + marks4 + marks5;
+// console.log(`total marks are : ${sum_marks}`);
+// var percentage = (sum_marks / total_marks) * 100;
+// console.log(`Percentage is : ${percentage}`);
+// if (percentage >= 80 && percentage <= 100) {
+//   document.write("Grade is : A+");
+// } else if (percentage >= 70 && percentage < 80) {
+//   document.write("Grade is : A");
+// } else if (percentage >= 60 && percentage < 70) {
+//   document.write("Grade is : B");
+// } else if (percentage >= 50 && percentage < 60) {
+//   document.write("Grade is : C");
+// } else if (percentage >= 40 && percentage < 50) {
+//   document.write("Grade is : D");
+// } else {
+//   document.write("You are Fail..");
+// }
+
+// var a = +prompt("enter the value of a : ");
+// if (a == 10) {
+//   alert("a is 10");
+// } else {
+//   alert(`The value of a is: ${a}`);
+// }
+
+// var city = prompt("enter the city : ");
+// if (city === "karachi") {
+//   alert("Acknowledging it's Karachi");
+// } else if (city === "lahore") {
+//   alert("Acknowledging it's Lahore");
+// } else {
+//   alert(`Your city is : ${city}`);
+// }
+
+//                     Chapter 13 (Testing sets of conditions)
+
+// var a = +prompt("enter the value of a : ");
+// var b = +prompt("enter the value of b : ");
+// var c = +prompt("enter the value of c : ");
+// var d = +prompt("enter the value of d : ");
+
+// if (a === b && c === d) {
+//   alert("a is equal to b and c is equal to d");
+// }
+
+// var a = +prompt("enter the value of a : ");
+// var b = +prompt("enter the value of b : ");
+// var c = +prompt("enter the value of c : ");
+// var d = +prompt("enter the value of d : ");
+
+// if (a === b && c === d) {
+//   alert("a is equal to b and c is equal to d");
+// } else {
+//   alert("a is not equal to b or c is not equal to d");
+// }
+
+// var name = prompt("enter the name : ");
+// var age = +prompt("enter the age : ");
+// if ((name === "Hamza" || name === "Arsalan") && age < 60) {
+//   alert("Condition is true");
+// } else {
+//   alert("Condition is false");
+// }
+
+// var num1 = +prompt("enter the number1 : ");
+// var num2 = +prompt("enter the number2 : ");
+// if (num1 < num2) {
+//   alert("number1 is lesser than number2");
+// } else if (num1 > num2) {
+//   alert("number1 is greater than number2");
+// } else {
+//   alert("Something went wrong");
+// }
+
+// var f_name = "Muhammad";
+// var l_name = "adeel";
+// var ask_f_name = prompt("enter the first name : ");
+// var ask_l_name = prompt("enter the last name : ");
+// if (f_name === ask_f_name && l_name === ask_l_name) {
+//   alert("matches...");
+// }
+
+//                      Chapter 14 (If statements nested)
+
+// var Password = prompt("enter the password");
+// if (Password !== "") {
+//   if (Password.length <= 5) {
+//     alert("password must be greater than 5");
+//   } else if (Password.length > 5) {
+//     alert("length of password is okay ..");
+//   }
+// }
+
+// var a = 1;
+// var c = "Max";
+// if (a === 1) {
+//   if (c === "Max") {
+//     alert("OK");
+//   }
+// }
+
+// var a = 1;
+// var c = "Max";
+
+// if (a == 1 && c === "Max") {
+//   alert("OK..");
+// }
+
+// var num1 = 15;
+// var num2 = 15;
+
+// if (num1 === num2) {
+//   if (num1 <= num2) {
+//     alert("it passes the test case");
+//   }
+// }
+
+//                            Chapter 15 (Array I)
+
+
